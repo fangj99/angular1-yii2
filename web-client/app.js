@@ -4,9 +4,9 @@ var serviceBase = 'http://127.0.0.1/web-service/web/'
 var spaApp = angular.module('spaApp', [
   'ngRoute',
   'spaApp.site',
-  'spaApp.book',
+  'spaApp.book'
 ]);
-var spaApp_site = angular.module('spaApp.site', ['ngRoute'])
+var spaApp_site = angular.module('spaApp.site', ['ngRoute']);
 var spaApp_book = angular.module('spaApp.book', ['ngRoute']);
 
 spaApp.config(['$routeProvider', function($routeProvider) {
